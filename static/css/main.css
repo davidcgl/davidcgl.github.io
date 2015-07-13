@@ -1,113 +1,54 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700);
-
-body {
-    background: #F8F9FA;
-    color: #303030;
-    font-family: "Source Sans Pro", sans-serif; 
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.6;
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+* {
+  box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto Slab", sans-serif;
-    font-weight: 700;
+body {
+  color: #a0a0a0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
 
 p {
-    margin: 0 0 16px;
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 
 a {
-    color: #e74c3c;
+  color: #909090;
+  text-decoration: none;
+  transition: color .3s;
 }
 
 a:hover {
-    color: #e74c3c;
-    text-decoration: underline;
+  color: #e74c3c;
 }
 
-a.alt {
-    color: inherit;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-
-}
-
-a.alt:hover {
-    color: #e74c3c;
-    text-decoration: none;
-}
-
-#outdated-browser {
-    color: #FFF;
-    background: #92280F; 
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    z-index: 100;
-}
-
-.wrapper {
-    margin: 20px auto;
-    max-width: 700px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
-
-.content {
-    background: #FFF;
-}
-
-.content header img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.content-body { 
-    padding: 40px 80px;
-}
-
-.content-body h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.content footer {
-    border-top: 1px solid #EEE;
-    padding: 30px 80px;
-}
-
-.content footer p {
-    color: #989898;
-    margin: 0;
-}
-
-@media only screen and (max-width: 720px) {
-    body {
-        font-size: 14px;
-    }
-
-    .wrapper {
-        margin: 10px;
-    }
-
-    .content-body {
-        padding: 20px 40px;
-    }
-
-    .content-body h1 {
-        font-size: 28px;
-    }
-
-    .content footer {
-        padding: 20px 40px;
-    }
-
-    .content footer p {
-        font-siz: 14px;
-    }
+#container {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -160px;
+  width: 320px;
 }
