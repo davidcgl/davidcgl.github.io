@@ -4,7 +4,7 @@
 }
 
 body {
-  color: #6772e5;
+  color: #6b7c93;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -35,9 +35,9 @@ p {
 }
 
 a {
-  color: #6772e5;
+  color: #6b7c93;
   text-decoration: none;
-  transition: color .3s;
+  transition: color .1s;
 }
 
 a:hover {
